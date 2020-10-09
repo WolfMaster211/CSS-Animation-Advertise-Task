@@ -23,7 +23,6 @@
 main {
     width: 1332px;
     margin: 0 auto;
-    background-color: #6c7094;
     padding: 13.8rem 3rem;
     margin-top: -7rem;
     background-image: linear-gradient(to bottom right, var(--medium-color), var(--light-color)), url('../img/pic1.jpg');
@@ -47,7 +46,6 @@ main {
     width: 1332px;
     margin: 0 auto;
     background-color: #37394b;
-    text-align: center;
     columns: wheat;
     padding: 3rem;
 }
@@ -94,6 +92,23 @@ main {
 .text2 {
     color: #ffffff;
     animation: moveInDown 4s;
+}
+
+.icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #3a8536;
+    width: 2.4rem;
+    height: 2.4rem;
+    font-size: 1.4rem;
+    transition: 0.6s;
+}
+
+.icons a:hover {
+    background-color: #3a8536;
+    color: #ffffff;
+    border-radius: 60%;
 }
 
 @keyframes appear {
